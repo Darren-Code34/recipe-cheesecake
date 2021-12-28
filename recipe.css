@@ -1,0 +1,228 @@
+
+
+.container{
+    margin: 30px 5px;
+
+}
+
+.title-recipe{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.six-points{
+    float: left;
+    margin-top: 5px;
+}
+
+.comment-recipe{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.photo{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 180px;
+    border-radius: 12px;
+}
+
+.service p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700 ;
+    color:#BDBDBD
+}
+
+.service p span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:#333333;
+
+}
+
+.or p{
+    margin-left: 25px;
+}
+
+.or p span{
+    color: #F2994A;
+}
+
+.time p{
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+.fa-utensils{
+    float: left;
+    color: #F2994A;
+    margin-top: 10px;
+}
+
+
+
+.title-ingredient{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sub-ingredient{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.ingredients label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.title-cheesecake{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.cheesecake label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.italic span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.instructions h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.instructions p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.instructions .numero{
+    float: left;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    padding: 1px 6px; 
+    background-color:#F2994A;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.instructions .source{
+    font-style: italic;
+    font-size: 12px;
+    color: #BDBDBD;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+
+}
+
+@media only screen and (min-width:600px){
+    .container{
+        margin-left: 70px;
+        margin-right: 70px;
+       
+
+    }
+
+    .photo{
+        width: 530px;
+        height: 250px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    
+}
+
+
+@media only screen and (min-width:900px) and (max-width:1150px){
+
+    .photo{
+        width: 600px;
+        height:auto;
+        
+    }
+
+    .service{
+        float: right;
+        border: 1px solid transparent;
+        box-shadow: 0 0 20px #0000001A ;
+        padding:  15px 25px;
+    }
+
+    .service p{
+        display: block;
+    }
+
+    .ingredients, .cheesecake{
+        width: 50%;
+    }
+
+    .instructions{
+        width: 45%;
+    }
+    
+}
+
+@media only screen and (min-width: 1150px){
+    .container{
+        margin-left: 100px;
+        margin-right: 200px;
+       
+
+    }
+
+    .photo{
+        width: 750px;
+        height:auto;
+    }
+
+    .service{
+        float: right;
+        border: 1px solid transparent;
+        box-shadow: 0 0 20px #0000001A ;
+        padding:  15px 20px;
+    }
+
+    .service p{
+        display: block;
+    }
+
+    .ingredients, .cheesecake{
+        max-width: 50%;
+    }
+
+    .instructions{
+        max-width: 45%;
+    }
+}
+    
